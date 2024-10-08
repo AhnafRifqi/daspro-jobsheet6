@@ -19,8 +19,8 @@ public class Selection2Exp1244107060084 {
         
 
         if (isLeapYear) 
-            System.out.println(year + " is a leap year.");
+            System.out.println(" is a leap year.");
         else 
-            System.out.println(year + " is not a leap year.");
+            System.out.println(" is not a leap year.");
         }
     }

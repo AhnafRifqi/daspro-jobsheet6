@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Selection2Exp1244107060084 {
+public class LeapYearChecker {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -10,17 +10,18 @@ public class Selection2Exp1244107060084 {
 
         boolean isLeapYear = false;
 
-        
-        if (year % 4 == 0) 
+       
+        if (year % 4 == 0) {
             
             if (year % 100 != 0 || year % 400 == 0) {
                 isLeapYear = true;
             }
-        
+        }
 
-        if (isLeapYear) 
-            System.out.println(" is a leap year.");
-        else 
-            System.out.println(" is not a leap year.");
+        if (isLeapYear) {
+            System.out.println(year + " is a leap year.");
+        } else {
+            System.out.println(year + " is not a leap year.");
         }
     }
+}

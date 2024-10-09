@@ -8,6 +8,7 @@ public class Selection2Exp1244107060084 {
         System.out.print("Enter a year: ");
         int year = input.nextInt();
 
+
         boolean isLeapYear = false;
 
        
@@ -23,5 +24,15 @@ public class Selection2Exp1244107060084 {
          else 
             System.out.println(year + " is not a leap year.");
         
-    }
+    
+
+
+    if (year % 4 == 0) 
+      if (year % 100 != 0) 
+        System.out.println("Leap year");
+
+    else
+      System.out.println("Not a Leap year");
+  }
 }
+
